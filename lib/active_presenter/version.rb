@@ -3,7 +3,7 @@ module ActivePresenter
     MAJOR    = 1
     MINOR    = 2
     TINY     = 1
-    
-    STRING   = [MAJOR, MINOR, TINY].join('.')
+    RELEASE  = 'a'
+    STRING   = [MAJOR, MINOR, TINY].join('.')+RELEASE
   end
 end
